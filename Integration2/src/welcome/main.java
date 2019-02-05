@@ -1,6 +1,6 @@
 package welcome;
 /*
- * @author Leemarie Collet
+ * @author Leemarie Collet /
  * Description of program ~ program will be fun, interactive quiz.
  * Here are some brief definitions:
  *  Byte ~ is an 8-bit signed two's complement integer, and is useful for saving memory in large arrays, where the memory savings actually matters.
