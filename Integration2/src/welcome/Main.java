@@ -12,19 +12,25 @@ package welcome;
  *  boolean ~ has only two possible values: true and false. Use this data type for simple flags that track true/false conditions.
  *  char ~  is a single 16-bit Unicode character.
  */
+// This is a header
+// public is an access modifier
+// void to the return type; meaning this method doesn't return anything
+// method names should be in lowerCamelCase and be named with a verb
+//
 import java.io.InputStream;
 import java.util.Scanner;
-public class main {
+public class Main {
 
   public static void main(String[] args) {
     System.out.println("Hello, welcome to my Integration Project.");
     
-       InputStream stream = System.in;
+     InputStream stream = System.in;
      Scanner scan = new Scanner(stream);
     
     System.out.println("Name:");
-      String input = scan.next();
-    System.out.println("Hii! Welcome to my fun, and interative quiz " + input);
+      String Input = scan.next();
+    System.out.println("Hii! Welcome to my Integration project " + Input);
+    System.out.println("My project is a complication of everything I have learned in COP 2006.");
     
      scan.close();
   }

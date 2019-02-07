@@ -4,11 +4,11 @@ import java.util.Scanner;
  * Final class ~ means that you cannot edit the value of that variable. It's typically used for constants such as PI or whatnot.
  * Variable ~  are essentially containers which allow a program to store different pieces of information inside of them. 
  **/
-public final class variables {
+public final class Variables {
 
   public static void main(String[] args) {
     
-      String phrase = "Hi i am Lee and a little about me is";
+      String phrase = "Hi i am Lee and a little about me is:";
       Scanner scan = new Scanner(System.in);
       
       char grade = 'B';

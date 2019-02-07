@@ -1,10 +1,9 @@
 package welcome;
 
 /**
- * @author Leemarie
  * Casting ~ converting from one data type to another data type.
 **/
-public class casting {
+public class Casting {
 
   public static void main(String[] args) {
     
