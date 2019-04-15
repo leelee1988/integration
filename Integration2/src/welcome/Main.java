@@ -11,7 +11,7 @@ package welcome;
  *  double ~  is a double-precision 64-bit IEEE 754 floating poin.
  *  boolean ~ has only two possible values: true and false. Use this data type for simple flags that track true/false conditions.
  *  char ~  is a single 16-bit Unicode character.
- *
+ *  
  */
 // This is a header
 // public is an access modifier
@@ -25,6 +25,7 @@ public class Main {
 
   public static void main(String[] args) {
 // On line 26  is what we would call a header.
+	
     System.out.println("Hello, welcome to my Integration Project.");
     
      InputStream stream = System.in;
@@ -36,6 +37,9 @@ public class Main {
 // The word "input" above is what we would call a method call in java.
     System.out.println("My project is a complication of everything I have learned in COP 2006.");
     
-     scan.close();
+   
+    scan.close();
+    
+    
   }
 }
