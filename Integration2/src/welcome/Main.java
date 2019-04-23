@@ -1,4 +1,5 @@
 package welcome;
+
 /*
  * @author Leemarie Collet /
  * Description of program ~ program will be fun, interactive quiz.
@@ -21,25 +22,24 @@ package welcome;
 // Operator precedence means When several operations occur in an expression, each part is evaluated and resolved in a predetermined order.
 import java.io.InputStream;
 import java.util.Scanner;
+
 public class Main {
 
-  public static void main(String[] args) {
+	public static void main(String[] args) {
 // On line 26  is what we would call a header.
-	
-    System.out.println("Hello, welcome to my Integration Project.");
-    
-     InputStream stream = System.in;
-     Scanner scan = new Scanner(stream);
-    
-    System.out.println("Name:");
-      String Input = scan.next();
-    System.out.println("Hii! Welcome to my Integration project " + Input);
+
+		System.out.println("Hello, welcome to my Integration Project.");
+
+		InputStream stream = System.in;
+		Scanner scan = new Scanner(stream);
+
+		System.out.println("Name:");
+		String Input = scan.next();
+		System.out.println("Hii! Welcome to my Integration project " + Input);
 // The word "input" above is what we would call a method call in java.
-    System.out.println("My project is a complication of everything I have learned in COP 2006.");
-    
-   
-    scan.close();
-    
-    
-  }
+		System.out.println("My project is a complication of everything I have learned in COP 2006.");
+
+		scan.close();
+
+	}
 }
